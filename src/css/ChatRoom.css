@@ -1,7 +1,7 @@
-.chatRoom-container{
+.chatRoom-container {
   position: center;
   float: right;
-   width: 68%; 
+  width: 68%;
 }
 .chat-container {
   background-image: url("bgblue.png");
@@ -16,7 +16,7 @@
   height: 77vh;
   overflow-y: scroll;
 }
-.headerChat{
+.headerChat {
   font-size: 20px;
   overflow: hidden;
   background: rgba(123, 202, 255, 0.904);
@@ -24,7 +24,6 @@
   border: 1px solid rgb(251, 248, 248);
   color: solid white;
   text-align: center;
-  
 }
 .chats .chat {
   background: rgba(255, 255, 255, 0.8);
@@ -42,18 +41,18 @@
   height: auto;
   word-break: break-all;
   text-overflow: ellipsis;
+  color: black;
 }
 
-.content.left{
+.content.left {
   margin-left: 50px;
 }
 
-.time{
-  float:right;
+.time {
+  float: right;
   padding: 5px 13px;
   color: rgb(11, 38, 95);
 }
-
 
 .input {
   width: 100%;
@@ -84,9 +83,7 @@
   width: 10%;
 }
 
-
 .input input[type="submit"]:hover {
   background: #1ee494;
   color: #fff;
 }
-
